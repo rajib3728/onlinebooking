@@ -13,7 +13,7 @@ $txtPhone = $_POST['txtPhone'];
 $txtMessage = $_POST['txtMessage'];
 
 // database insert SQL code
-$sql = "INSERT INTO tbl_contact (`fldName`, `fldEmail`, `fldPhone`, `fldMessage`) VALUES ('$txtName', '$txtEmail', '$txtPhone', '$txtMessage')";
+$sql = "INSERT INTO tbl_contact (fldName,fldEmail, fldPhone, fldMessage) VALUES ('$txtName', '$txtEmail', '$txtPhone', '$txtMessage')";
 
 // insert in database 
 $rs = mysqli_query($con, $sql);
