@@ -48,8 +48,8 @@
 if(isset($_POST['txtEmail']))
 {
 // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
-//$con = mysqli_connect('localhost', 'root','','db_contact');
-$con = mysqli_connect('sql12.freesqldatabase.com', 'sql12605221','68VjGvBzw3','sql12605221');
+$con = mysqli_connect('localhost', 'root','','db_contact');
+
 // get the post records
 
 /*$txtName = $_POST['txtName'];
