@@ -47,9 +47,7 @@
 // database connection code
 if(isset($_POST['txtName']))
 {
-// $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
-$con = mysqli_connect('sql12.freesqldatabase.com', 'sql12605221','68VjGvBzw3','sql12605221');
-
+ $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
 // get the post records
 
 $txtName = $_POST['txtName'];
