@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    <title>cancel ticket</title>
+    <style>
+        body {
+    background-image: url('img2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    
+  }
+  #img1
+{
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.container
+{
+    display:flex;
+    justify-content: center;
+}
+.container1
+{
+    width:500px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    color:rgb(246, 34, 34);
+}
+    </style>
+</head>
+<body>
+    <center>
+        <img src="logo.png" width="100px" height="100px" id="img1">
+        <div class="container">
+         <div class="container1">
+
+            <form name="frmContact" class="needs-validation " method="post" action="config1.php">
+                <p>
+                  <label for="email">Your Email</label>
+                  <input type="text"  class="form-control"  name="txtEmail" id="txtEmail" placeholder="Email" value="" required>
+                </p>
+                <p>
+                  <label for="phone">Your Phone</label>
+                  <input type="text"  class="form-control" name="txtPhone" id="txtPhone" placeholder="Phone" value="" required>
+                </p>
+                <p>
+                    <input type="submit" name="Submit" id="Submit" value="cancel booking"  class="btn btn-primary btn-lg btn-block">
+                  </p>
+              </form>
+         </div>
+        </div>
+    </center>
+</body>
+</html>
